@@ -1,0 +1,21 @@
+{
+  "name": "create-rds-app",
+  "version": "0.1.4",
+  "bin": "./bin/cli.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export -o docs/",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@marceloglacial/rds-beta": "^0.6.2",
+    "eslint": "8.4.0",
+    "eslint-config-next": "12.0.7"
+  }
+}
